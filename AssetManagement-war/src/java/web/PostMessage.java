@@ -64,14 +64,14 @@ public class PostMessage extends HttpServlet {
                 MessageProducer messageProducer = session.createProducer(queue);
 
                 ObjectMessage message = session.createObjectMessage();
-//                MessageEntity1 e = new MessageEntity1();
-//                e.setTitle(title);
-//                e.setBody(body);
-//
-//                message.setObject(e);
-//                messageProducer.send(message);
-//                messageProducer.close();
-//                connection.close();
+                MessageEntity1 e = new MessageEntity1();
+                e.setTitle(title);
+                e.setBody(body);
+
+                message.setObject(e);
+                messageProducer.send(message);
+                messageProducer.close();
+                connection.close();
                 response.sendRedirect("ListNews");
 
                 //response.sendRedirect("ListNews");
