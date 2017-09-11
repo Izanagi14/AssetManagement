@@ -49,7 +49,7 @@
                 <td><%= rs.getString("Minutes_From")%></td>
                 <td><%= rs.getString("Minutes_To")%></td>
                 <td><%= rs.getString("Skill")%></td>
-                <td><form action="SetWatchDog" method="post"><input type="hidden" value="<%= rs.getString("AssetID")%>" name="Aid"/>
+                <td><form action="WatchDog.jsp" method="post"><input type="hidden" value="<%= rs.getString("AssetID")%>" name="Aid"/>
                         <input type="hidden" value="<%= rs.getString("EID")%>" name="Eid"/>
                         <input type="hidden" value="<%= currentEmpId%>" name="Ceid"/>
                         <input type="submit" value="Set Watch Dog" name=""/></form></td>

@@ -185,7 +185,7 @@
                     <a href="addAttachment.jsp" target="go">Add Attachment</a>
                     <a href="removeAttachment.jsp" target="go">Remove Attachment</a>
                     <a href="setWatchDogs.jsp" target="go">Set WatchDogs</a>
-                            
+                    <a href="notifications.jsp" target="go">Watch Notifications</a>
                 </section>
             </aside>
             <section class="courses">
@@ -196,7 +196,7 @@
                 %>
                 <h2><p align ="center" action="nameret.php">WELCOME <%= str%></p></h2>
             </section>
-            <iframe name="go" style="width:600px"; height="480px" src="" frameborder="0"></iframe>
+                <iframe name="go" style="width:600px"; height="480px" src="" frameborder="0"></iframe>
 
 
             <footer id="demo" align="center">

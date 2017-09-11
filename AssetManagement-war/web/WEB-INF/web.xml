@@ -52,6 +52,10 @@
         <servlet-name>PostMessage</servlet-name>
         <servlet-class>web.PostMessage</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SetWatchDog</servlet-name>
+        <servlet-class>Ejb.SetWatchDog</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
         <url-pattern>/Login</url-pattern>
@@ -103,6 +107,10 @@
     <servlet-mapping>
         <servlet-name>PostMessage</servlet-name>
         <url-pattern>/PostMessage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SetWatchDog</servlet-name>
+        <url-pattern>/SetWatchDog</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

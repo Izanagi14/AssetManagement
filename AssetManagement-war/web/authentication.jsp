@@ -13,7 +13,7 @@
                 background-color: #f2f2f2;
                 padding: 20px;
             }
-            input[type=text] 
+            input[type=text],[type=password] 
             {
                 width: 100%;
                 height: 50px;
@@ -43,9 +43,9 @@
                 <input type="text" id="designation" name="Designation" placeholder="Enter Designation..">
 
                 <label for="pass">Password</label>
-                <input type="text" id="pass" name="Password" placeholder="Enter Password..">
+                <input type="password" id="pass" name="Password" placeholder="Enter Password..">
 
-                <label for="skills">Employee ID</label>
+                <label for="skills">Skills</label>
                 <input type="text" id="skills" name="Skills" placeholder="Enter Skills..">
 
                 <input type="submit" value="Submit">

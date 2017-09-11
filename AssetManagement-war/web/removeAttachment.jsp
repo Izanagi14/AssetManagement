@@ -39,15 +39,7 @@
                     while (rs.next()) {
                         System.out.println(rs.getString("AssetID").toString());
 
-                        byte[] imgData = rs.getBytes("File");//Here r1.getBytes() extract byte data from resultSet 
-                        System.out.println(imgData);
-                        response.setHeader("expires", "0");
-                        response.setContentType("image/jpg");
-
-                        OutputStream os = response.getOutputStream();
-                        os.write(imgData);
-                        os.flush();
-                        os.close();
+                   
 
 
             %>

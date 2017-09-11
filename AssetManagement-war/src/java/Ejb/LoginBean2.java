@@ -53,6 +53,7 @@ public class LoginBean2 implements LoginBean2Local {
                 System.out.println(rs.getString("Name") + " " + rs.getString("Password") + rs.getString("Designation"));
                 String name = rs.getString("Name");
                 String pass = rs.getString("Password");
+                System.out.println(name+"hasjdsadkjahdjahjss "+pass);
                 String designation = rs.getString("Designation");
                 if (password.compareTo(pass) == 0) {
                     
